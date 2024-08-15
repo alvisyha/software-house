@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --primary-color: #1a202c;
+  --secondary-color: #4a5568;
+}
+
+*,
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-nav {
+  font-weight: 500;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+}
+
+.hero-desc {
+  width: 500px;
+}
+
+.img-hero {
+  margin-top: 2rem;
+}
+
+.container-about-us {
+  height: 600px;
+  background-color: #e7daed;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    height: 4.5rem;
+    background-color: #fff !important;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .img-hero {
+    width: 350px;
+    margin-top: 2rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-title,
+  .hero-desc {
+    text-align: center;
+  }
+}
